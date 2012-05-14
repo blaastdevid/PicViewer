@@ -1,7 +1,7 @@
 var _ = require('common/util');
 
 function viewImage(data) {
-	app.setContent('viewImage', data);
+	app.pushView('viewImage', data);
 }
 
 _.extend(exports, {
